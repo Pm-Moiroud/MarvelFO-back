@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const isAuthenticated = require("../middleware/isAuthenticated");
+const isAuthenticated = require("../middleware/isAuthenticated.js");
 
 // import models
 const Favorite = require("../models/Favorite");
